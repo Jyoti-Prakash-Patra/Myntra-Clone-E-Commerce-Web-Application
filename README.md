@@ -3,9 +3,11 @@
 <br>
 
 <h2>Features :</h2>
- <p>User Authentication: Secure login and signup functionality.</p>
- <p>Product Listings: Display of various products with filtering options (by category, price, etc.).</p>
- <p>Shopping Cart: Add or remove products from the cart, update quantities, and proceed to checkout.</p>
+<ul>
+ <li>User Authentication: Secure login and signup functionality.</li>
+ <li>Product Listings: Display of various products with filtering options (by category, price, etc.).</li>
+ <li>Shopping Cart: Add or remove products from the cart, update quantities, and proceed to checkout.</li>
+</ul>
  <br>
 
  <h2>Tech Stack :</h2>
@@ -13,9 +15,11 @@
   <li>Frontend: HTML, CSS and JavaScript.</li>
   <li>Version Control: Git & GitHub for version control and project management.</li>
 </ul>
+<br>
 
-<h2>Screenshots</h2>
+<h2>Screenshots :</h2>
 <img align="center" alt="Myntra Web application" width="550" src="https://github.com/Speak-2jyoti/Myntra-Clone-E-Commerce-Web-Application/blob/main/OutputImage/Myntra_Output.gif?raw=true">
+<br>
 
 
 <h2>Future Enhancements:</h2>
@@ -24,6 +28,7 @@
   <li>Enhance the recommendation engine to provide a more personalized shopping experience tailored to each user’s preferences.</li>
   <li>Add real-time payment gateway integration to enable seamless online transactions.</li>
 </ul>
+<br>
 
 <h2>Contributing:</h2>
 <p>If you're interested in contributing, feel free to fork the repository and submit a pull request. For any major changes, it's best to open an issue first so we can discuss your ideas and ensure they align with the project goals. Your contributions are always welcome!</p>
