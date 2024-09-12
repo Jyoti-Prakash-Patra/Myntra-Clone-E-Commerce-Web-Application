@@ -3,9 +3,9 @@
 <br>
 
 <h2>Features :</h2>
- <p>User Authentication: Secure login and registration functionality.</p>
+ <p>User Authentication: Secure login and signup functionality.</p>
  <p>Product Listings: Display of various products with filtering options (by category, price, etc.).</p>
- <p>Shopping Cart: Add/remove products from the cart, update quantities, and proceed to checkout.</p>
+ <p>Shopping Cart: Add or remove products from the cart, update quantities, and proceed to checkout.</p>
  <br>
 
  <h2>Tech Stack :</h2>
@@ -15,7 +15,7 @@
 </ul>
 
 <h2>Screenshots</h2>
-<img align="center" alt="Myntra Web application" width="300" src="">
+<img align="center" alt="Myntra Web application" width="550" src="https://github.com/Speak-2jyoti/Myntra-Clone-E-Commerce-Web-Application/blob/main/OutputImage/Myntra_Output.gif?raw=true">
 
 
 <h2>Future Enhancements:</h2>
