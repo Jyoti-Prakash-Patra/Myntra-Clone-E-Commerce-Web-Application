@@ -5,37 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
+    <title>Login</title>
     <link rel="shortcut icon" type="image/png" href="../Image/favicon.png">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../CommonCssFile/Profile.css">
     <link rel="stylesheet" href="../CommonCssFile/style.css">
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        #search #search_icon {
-            top: unset;
-        }
-
-        #boxbody {
-            margin-top: 15rem;
-        }
-
-        h3 {
-            margin-top: 1.5rem;
-            font-size: 1.5rem;
-        }
-    </style>
-
 </head>
 
 <body>
-    <!-- ------------- Headder with nav bar ----------------->
+    <!--------------------------- Header section ---------------------- -->
     <header>
         <div id="logo">
-            <img src="../Image/myntra-removebg-preview.png" alt="brandLoog" id="landingPage">
+            <img src="../Image/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
         </div>
         <ul id="nav_bar">
-            <li><a href="../HomePages/MenHomePage.html">men</a></li>
+            <li id="megamenu_container"><a href="../HomePages/MenHomePage.html">men</a></li>
             <li><a href="../HomePages/WomenHomepage.html">women</a></li>
             <li><a href="../HomePages/Kids.html">kids</a></li>
             <li><a href="../HomePages/HomeLiving.html">home & living</a></li>
@@ -48,13 +33,11 @@
         </div>
         <div id="right_icon">
             <div id="reggDropdown">
-                <!------------------ Dropdown menu for login and signup ---------------------- -->
+                <!----------------------- Dropdown menu for login and signup ---------------------->
                 <div id="drop">
-                    <a href="../Profile/profile.html" class="dropList">login</a>
-                    <a href="../Profile/signup.html" class="dropList">sign up</a>
+                    <a href="./Profile.html" class="dropList">login</a>
+                    <a href="./SignUp.html" class="dropList">sign up</a>
                 </div>
-
-
                 <i class="fa-regular fa-user"></i>
                 <span>profile</span>
             </div>
@@ -68,7 +51,7 @@
             </div>
         </div>
 
-        <!-------------- Toggle menu bar -------------------->
+        <!---------------------------- Toggle menu bar ------------------------ -->
         <div id="toggle">
             <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
             <div id="myDropdown" class="dropdown-content">
@@ -87,43 +70,38 @@
                 </div>
             </div>
         </div>
-
     </header>
 
+
+
+
+
     <div id="boxbody">
-        <div class="imgboo">
-            <img src="https://bit.ly/3iYuMIl" alt="">
+        <div class="imgbo">
+            <img src="https://bit.ly/3tV4k8R" alt="">
         </div>
 
-        <div class="SignUp">
+        <div class="signin">
 
-            <h2> SignUp</h2>
-            <h3>Name</h3>
-            <input type="text" id="name" placeholder="Enter Name">
-
-            <h3>Mobile</h3>
-            <input type="tel" placeholder="Mobile Number*" id="mob">
-
-            <h3>Email</h3>
-            <input type="mail" id="mail" placeholder="Enter Email">
-
-            <h3>Password</h3>
-            <input type="password" id="pass" placeholder="Create a Password">
-
+            <h2>Login <span>or</span> Signup</h2>
+            <div>
+                <input type="tel" placeholder="Mobile Number*" id="mob">
+                <input type="password" placeholder="Enter password" id="pass">
+            </div>
             <p>By continuing, I agree to the <span> Terms of Use </span> and <span>privacy policy</span> </p>
 
-            <button id="signup_button">continue</button>
+            <button>continue</button>
             <p>Have trouble logging in?<span> Get help</span> </p>
-            <p>Already have an account ? <span id="logIn"> Login </span></p>
+            <p>Don't have an account ? <span id="signUp">Sign up</span> </p>
+
 
         </div>
 
     </div>
-
 </body>
 
 </html>
 
-<script src="../Common Files/headerMenu.js"></script>
-<script src="../CommonJS/SignUp.js"></script>
+<script src="../CommonJS/Profile.js"></script>
+<script src="/Common Files/headerMenu.js"></script>
 <script src="../Common Files/hyperlinks.js"></script>

@@ -472,8 +472,8 @@ section.sevsection {
 }
 
 
-/* ------------------------- Offer coupon section in signup --------------------------------*/
-.imgbo img {
+/* ------------------------- Offer coupon section in signup -------------------------------- */
+.imgboo img {
     margin-left: 62rem;
     height: 10vw;
 }
@@ -481,7 +481,7 @@ section.sevsection {
 
 /* ------------------------------ Signup form deign --------------------------------*/
 
-.signin {
+.SignUp {
     background-color: #ffffff;
     padding: 3rem;
     border-radius: 10px;
@@ -491,20 +491,20 @@ section.sevsection {
     margin-left: 60rem;
 }
 
-.signin h2 {
+.SignUp h2 {
     text-align: center;
     color: #333;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.signin h3 {
+.SignUp h3 {
     font-size: 1rem;
     color: #555;
     margin-bottom: 0.5rem;
 }
 
-.signin input {
+.SignUp input {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
@@ -515,18 +515,18 @@ section.sevsection {
     transition: all 0.3s ease-in-out;
 }
 
-.signin input:focus {
+.SignUp input:focus {
     border-color: #007bff;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
 }
 
-.signin p {
+.SignUp p {
     font-size: 0.9rem;
     color: #777;
     margin-top: 1.5rem;
 }
 
-.signin p span {
+.SignUp p span {
     color: #007bff;
     cursor: pointer;
 }
