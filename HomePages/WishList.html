@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishList</title>
+    <link rel="stylesheet" href="../CommonCssFile/WishList.css">
+    <link rel="stylesheet" href="../CommonCssFile/style.css">
+    <link rel="shortcut icon" type="image/png" href="../Image/favicon.png">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="..//Image/myntra-removebg-preview.png" alt="brandLoog" id="landingPage">
+        </div>
+        <ul id="nav_bar">
+            <li><a href="#">men</a></li>
+            <li><a href="#">women</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">home & living</a></li>
+            <li><a href="#">beauty</a></li>
+            <li id="studio"><a href="#">Home Decor</a><span>new</span></li>
+        </ul>
+        <div id="search">
+            <input type="text" id="search_bar" placeholder="Search for products, brands">
+            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+        </div>
+        <div id="right_icon">
+            <div id="reggDropdown">
+                <!----------------- Dropdown menu for login and signup ----------------------- -->
+                <div id="drop">
+                    <a href="profile.html" class="dropList">login</a>
+                    <a href="signup.html" class="dropList">sign up</a>
+                </div>
+
+                <i class="fa-regular fa-user"></i>
+                <span>profile</span>
+            </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>bag</span>
+            </div>
+        </div>
+
+        <!--------------------- Toggle menu bar ---------------------- -->
+        <div id="toggle">
+            <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="top">
+                    <a href="#">men</a>
+                    <a href="#">women</a>
+                    <a href="#">kids</a>
+                    <a href="#">home & living</a>
+                    <a href="#">beauty</a>
+                    <a href="#">studio</a>
+                </div>
+                <div class="bottom">
+                    <i class="fa-regular fa-user fa_user" id="profile"></i>
+                    <i class="fa-regular fa-heart fa_wishlist"></i>
+                    <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <h3 class="wishhead">My Wishlist <span class="wishcount"> </span> </h3>
+
+    <div class="container">
+
+    </div>
+
+    <!------------------------- Footer Section -------------------------- -->
+    <footer>
+        <section class="sevsection">
+            <div class="container3">
+                <div class="box-x">
+                    <div class="box-1">
+                        <h3>POPULAR SEARCHES</h3>
+                        <p>Sherwani | Track Pants | Blazzers | Sweater | Jeans | Suit | Trouser | Shalwar | Bracelets |
+                            Sherwani | Cargo | Shirts | Rings</p>
+                    </div>
+                    <div class="box-2">
+                        <h2>Experience Myntra app on mobile</h2>
+                        <img src="../Image/img.png" alt="Playstore">
+                    </div>
+                    <div class="box-3">
+
+                        <img src="../Image/img1.png" alt="Myntra">
+                        <span>
+                            <h2>Keep in Touch</h2>
+                            <div class="ficon">
+                                <a href="https://www.facebook.com/centurionuniversity/"><i class="fa-brands fa-facebook"
+                                        style="color: #0213af;" id="Hover_Effect"></i></a>
+                                <a href="https://www.instagram.com/cutmodisha/"><i class="fa-brands fa-instagram"
+                                        style="color: #9d102d;" id="Hover_Effect"></i></a>
+                                <a href="https://www.youtube.com/channel/UCy2a2NdleGSGlEd5FxyOcOA"><i
+                                        class="fa-brands fa-youtube" style="color: #9d102d;" id="Hover_Effect"></i></a>
+                                <a href="https://twitter.com/CUTMIndia"><i class="fa-brands fa-twitter"
+                                        style="color: #090909;" id="Hover_Effect"></i></a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </footer>
+    <footer id="footer">
+        &copy; Copyright 2022 www.myntra.com | All rights reserved
+    </footer>
+</body>
+
+</html>
+<script src="../CommonJS/WishList.js"></script>
+<script src="../Common Files/hyperlinks.js"></script>
+<script src="../Common Files/headerMenu.js"></script>
