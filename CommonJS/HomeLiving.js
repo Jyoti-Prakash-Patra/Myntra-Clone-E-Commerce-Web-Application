@@ -71,7 +71,8 @@ function mFunction(value) {
 }
 
 for (let i = 0; i < n; i++) {
-    var asideDiv = document.createElement('div'); // Container div for each part 
+    // ------------ Container div for each part -----------------------
+    var asideDiv = document.createElement('div');  
     asideDiv.setAttribute('class', 'aside_content');
 
     anchors_para[i].map(function (element) {
@@ -97,7 +98,7 @@ for (let i = 0; i < n; i++) {
 var z = document.querySelectorAll('img');
 for (let i = 0; i < z.length; i++) {
     z[i].addEventListener('click', function () {
-        window.location.href = "/Home Living Products/home_furnishing.html"
+        window.location.href = "../HomePages/HomeDecor.html"
     })
 }
 

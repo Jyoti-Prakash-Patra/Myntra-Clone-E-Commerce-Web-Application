@@ -95,21 +95,21 @@ cartarr.map(function (ele, ind) {
 
 document.querySelector(".wishlistlink").addEventListener("click", sendtowish)
 function sendtowish() {
-    window.location.href = "wishlist.html"
+    window.location.href = "../HomePages/WishList.html"
 }
 
 
 function removeitem(ind) {
     cartarr.splice(ind, 1);
     localStorage.setItem("BagListObj", JSON.stringify(cartarr))
-    window.location.href = "cart.html";
+    window.location.href = "../HomePages/Cart.html";
 
 }
 
 document.querySelector(".makeorder").addEventListener("click", profile)
 
 function profile() {
-    window.location.href = "../Profile/signup.html";
+    window.location.href = "../HomePages/SignUp.html";
 }
 
 document.querySelector(".apply").addEventListener("click", discountfun);
@@ -138,12 +138,5 @@ document.getElementById('landingPage').addEventListener('click', function () {
 })
 
 document.querySelector("#second").addEventListener("click", function () {
-    window.location.href = "../Profile/signup.html";
+    window.location.href = "../HomePages/SignUp.html";
 })
-
-
-
-
-
-
-

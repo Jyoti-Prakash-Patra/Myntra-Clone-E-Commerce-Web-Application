@@ -29,7 +29,7 @@ function loginfun() {
 
             alert("you dont have account sign up first")
 
-            window.location.href = "signup.html"
+            window.location.href = "../HomePages/SignUp.html"
         }
 
     }
@@ -47,11 +47,11 @@ function checkpass(a) {
 
 // ----------------- Hyperlinks section JS ---------------------------
 document.getElementById('profile').addEventListener('click', function () {
-    window.location.href = "signup.html"
+    window.location.href = "../HomePages/SignUp.html"
 })
 document.getElementById('landingPage').addEventListener('click', function () {
     window.location.href = "../Landingpage/index.html"
 })
 document.getElementById('signUp').addEventListener('click', function () {
-    window.location.href = "../Profile/signup.html"
+    window.location.href = "../HomePages/SignUp.html"
 })

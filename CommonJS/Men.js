@@ -19,7 +19,9 @@ var slideImages = [
 var z = null;
 
 //JS for media query
-var value = window.matchMedia("(max-width: 550px)") //FOR TABLET VIEW
+
+// --------------------- For Tablet View --------------------------
+var value = window.matchMedia("(max-width: 550px)") 
 mFunction(value)
 value.addListener(mFunction)
 function mFunction(value) {
@@ -92,7 +94,7 @@ document.getElementById('landingPage').addEventListener('click', function () {
 var images = document.querySelectorAll('img')
 for (let i = 0; i < images.length; i++) {
     images[i].addEventListener('click', function () {
-        window.location.href = "../menspage/mens.html"
+        window.location.href = "../HomePages/MenProduct.html"
     })
 }
 

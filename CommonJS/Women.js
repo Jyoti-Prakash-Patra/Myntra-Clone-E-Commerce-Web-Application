@@ -85,10 +85,10 @@ z.map(function (ele, index) {
 var images = document.querySelectorAll('img')
 for (let i = 0; i < images.length; i++) {
     images[i].addEventListener('click', function () {
-        window.location.href = "../womensdata/women.html"
+        window.location.href = "../HomePages/WomenProduct.html"
     })
 }
-// Landing page
+// ------------------- Landing page --------------------------
 document.getElementById('landingPage').addEventListener('click', function () {
     window.location.href = "../Landingpage/index.html"
 })

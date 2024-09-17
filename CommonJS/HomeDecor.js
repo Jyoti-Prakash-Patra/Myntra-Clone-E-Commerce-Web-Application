@@ -590,10 +590,10 @@ document.getElementById('landingPage').addEventListener('click', function () {
     window.location.href = "/LandingPage/index.html"
 })
 document.querySelector(".fa-heart").addEventListener("click", function () {
-    window.location.href = "../wishlist/wishlist.html"
+    window.location.href = "../HomePages/WishList.html"
 })
 document.querySelector(".fa-bag-shopping").addEventListener("click", function () {
-    window.location.href = "../wishlist/cart.html"
+    window.location.href = "../HomePages/Cart.html"
 })
 
 var all = document.getElementById("brandFilter").value

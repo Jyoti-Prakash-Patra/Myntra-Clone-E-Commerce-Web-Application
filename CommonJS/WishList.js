@@ -75,7 +75,7 @@ function removefromwish(ind) {
 
     wisharr.splice(ind, 1)
     localStorage.setItem("wishListObj", JSON.stringify(wisharr))
-    window.location.href = "wishlist.html"
+    window.location.href = "../HomePages/WishList.html"
 
 }
 
@@ -89,7 +89,7 @@ function sendtocart(ele, ind) {
 
     wisharr.splice(ind, 1)
     localStorage.setItem("wishListObj", JSON.stringify(wisharr))
-    window.location.href = "wishlist.html"
+    window.location.href = "../HomePages/WishList.html"
 
 }
 
