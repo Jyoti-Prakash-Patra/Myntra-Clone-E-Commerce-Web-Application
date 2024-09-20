@@ -178,7 +178,7 @@ header>* {
 }
 
 
-/* PROFILE DROPDOWN MENU */
+/*------------------------------------ Profile dropdown menu -------------------------- */
 #reggDropdown {
     position: relative;
 }
@@ -992,6 +992,3 @@ section.sevsection {
         display: none
     }
 }
-
-
-/* completed.................................. */
