@@ -539,5 +539,5 @@ function addToBaglist(element) {
 }
 
 document.getElementById("land").addEventListener("click", function () {
-    window.location.href = "/LandingPage/index.html";
+    window.location.href = "../LandingPage/index.html";
 });
