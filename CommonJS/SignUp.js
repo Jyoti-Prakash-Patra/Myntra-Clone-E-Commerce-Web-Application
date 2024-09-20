@@ -31,7 +31,7 @@ function sigupfun() {
         localStorage.setItem("userarr", JSON.stringify(userdata));
 
 
-        alert("signed up successfully");
+        alert("Signed up successfully");
 
         document.querySelector("#mob").value = "";
         document.querySelector("#mail").value = "";
@@ -48,7 +48,7 @@ document.getElementById('profile').addEventListener('click', function () {
     window.location.href = "../HomePages/Profile.html"
 })
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = "../Landingpage/index.html"
+    window.location.href = "../LandingPage/index.html"
 })
 
 document.getElementById('logIn').addEventListener('click', function () {

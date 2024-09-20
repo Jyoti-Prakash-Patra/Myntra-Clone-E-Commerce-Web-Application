@@ -55,9 +55,9 @@ var anchors_para = [
 ]
 var n = null;
 
-// JS for media query
+// JS for media query ........................
 
-// Tablet view
+// Tablet view .........................
 var value = window.matchMedia("(max-width: 850px)")
 mFunction(value)
 value.addListener(mFunction)
@@ -102,7 +102,7 @@ for (let i = 0; i < z.length; i++) {
     })
 }
 
-// Landing Page
+// Landing Page ............................
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = "/LandingPage/index.html"
+    window.location.href = "../LandingPage/index.html"
 })

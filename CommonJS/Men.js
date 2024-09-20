@@ -89,7 +89,7 @@ brandsBag.map(function (element) {
 
 
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = "index.html"
+    window.location.href = "../LandingPage/index.html"
 })
 var images = document.querySelectorAll('img')
 for (let i = 0; i < images.length; i++) {
@@ -100,5 +100,5 @@ for (let i = 0; i < images.length; i++) {
 
 // Landing page
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = '../Landingpage/index.html'
+    window.location.href = '../LandingPage/index.html'
 })

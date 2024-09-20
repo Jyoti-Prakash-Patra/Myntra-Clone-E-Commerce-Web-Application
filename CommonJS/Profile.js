@@ -50,7 +50,7 @@ document.getElementById('profile').addEventListener('click', function () {
     window.location.href = "../HomePages/SignUp.html"
 })
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = "../Landingpage/index.html"
+    window.location.href = "../LandingPage/index.html"
 })
 document.getElementById('signUp').addEventListener('click', function () {
     window.location.href = "../HomePages/SignUp.html"

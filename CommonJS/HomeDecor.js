@@ -587,7 +587,7 @@ function addToBaglist(element) {
 
 // Landing page........................
 document.getElementById('landingPage').addEventListener('click', function () {
-    window.location.href = "/LandingPage/index.html"
+    window.location.href = "../LandingPage/index.html"
 })
 document.querySelector(".fa-heart").addEventListener("click", function () {
     window.location.href = "../HomePages/WishList.html"
