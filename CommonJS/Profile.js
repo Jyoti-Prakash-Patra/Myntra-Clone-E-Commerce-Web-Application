@@ -18,7 +18,8 @@ function loginfun() {
                 document.querySelector("#mob").value = "";
                 document.querySelector("#pass").value = "";
 
-                window.location.href = "../payment/address.html";
+                // window.location.href = "../payment/address.html";
+                window.location.href = "../LandingPage/index.html"
                 break;
             } else {
                 alert("wrong password")
